@@ -7,7 +7,7 @@ A Terraform module that creates an IAM OpenID Connect provider. You only need 1 
 ```terraform
 module "github_oidc_provider" {
   source  = "Catalyst-Consulting-Group/github-oidc/aws"
-  version = "1.0.0"
+  version = "~> 1.0"
 }
 ```
 
